@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import TodoFeature from './features/Todo';
 import Albumfeature from './features/Album';
+import Counter from './components/Counter';
+import ColorBox from './components/ColorBox';
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
           Minh Nghĩa
         </p>
       </header>
-      <Albumfeature />
+      <ColorBox />
     </div>
   );
 }
