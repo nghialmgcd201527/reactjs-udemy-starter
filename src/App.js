@@ -1,5 +1,8 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoFeature from './features/Todo';
+import Albumfeature from './features/Album';
 
 function App() {
   return (
@@ -9,15 +12,8 @@ function App() {
         <p>
           Minh Nghĩa
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Albumfeature />
     </div>
   );
 }
